@@ -1,5 +1,8 @@
 <RCC>
     <qresource prefix="/">
         <file>main.qml</file>
+        <file>imports/lodash/lodash.js</file>
+        <file>imports/lodash/lodash-ext.js</file>
+        <file>imports/lodash/qmldir</file>
     </qresource>
 </RCC>
