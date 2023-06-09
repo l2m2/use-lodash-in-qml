@@ -29,6 +29,7 @@ npm -g install lodash-cli
 # 生成lodash.js, lodash.min.js
 lodash exports="none" iife=";(function () {%output% root._ = _; }.call(this));" -o lodash.js
 ```
+如果安装lodash-cli后lodash -h出现"Cannot find module 'fs.realpath'"的错误，请不要使用淘宝镜像，再重新安装试试。
 
 ## 裁剪
 
