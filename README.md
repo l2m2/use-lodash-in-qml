@@ -24,8 +24,6 @@ Window {
 ## 如何生成lodash.js
 
 ```bash
-# 墙内使用淘宝镜像
-npm config set registry https://registry.npm.taobao.org
 # 安装lodash-cli
 npm -g install lodash-cli
 # 生成lodash.js, lodash.min.js
